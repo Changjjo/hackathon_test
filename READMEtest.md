@@ -183,12 +183,12 @@ cd ~/sea-me-hackathon-2023
 ```
 Now, send the generated code to your device using rsync command line
 ```bash
-cd ~/fidl
+cd ~/sea-me-hackathon-2023
 rsync -avz src-gen <user-name>@<IP-address>:<project-directory>
 ```
 In my case
 ```bash
-rsync -avz src-gen-cluster sea@192.168.0.XXX:/home/sea/project-hello
+rsync -avz src-gen-cluster sea@192.168.0.XXX:/home/sea/sea-me-hackathon-2023
 ```
 
 ## Step 7: Install Qt
