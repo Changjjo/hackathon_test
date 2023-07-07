@@ -151,7 +151,7 @@ Add the command at the lowest line.
 export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 ```
 
-after write the bashrc and exit
+write the bashrc and exit
 
 *in terminal*
 ```bash
