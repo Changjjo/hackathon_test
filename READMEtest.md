@@ -1,5 +1,5 @@
 # CommonAPI vSomeIP QT Setup 
-If you have your own Ubuntu PC and don't want to use VMware, follow the steps below.
+If you have your own Ubuntu PC and don't want to use VMware, follow the steps below.<br>
 However, if you want to use VMware, click the following below.
 
 - [VMware Ubuntu image](https://github.com/AveesLab/sea-me-hackathon-2023/blob/master/VMware%20Ubuntu%20image/README.md)
@@ -164,8 +164,8 @@ sudo apt-get install libqt5multimedia5-plugins qml-module-qtmultimedia
 <br/>
 
 ## Step 7: Execute Cluster and Controller
-The setup for CommonAPI vSomeIP QT is now complete! 
+The setup for CommonAPI vSomeIP QT is now complete!<br>
 You can run the Controller and Cluster by following the each README in the links below.
-- [Cluster codes](https://github.com/AveesLab/sea-me-hackathon-2023/tree/master/Cluster)
-- [Controller codes](https://github.com/AveesLab/sea-me-hackathon-2023/tree/master/Controller)
+- [Cluster](https://github.com/AveesLab/sea-me-hackathon-2023/tree/master/Cluster)
+- [Controller](https://github.com/AveesLab/sea-me-hackathon-2023/tree/master/Controller)
 
