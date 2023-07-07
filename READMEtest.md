@@ -2,7 +2,7 @@
 If you have your own Ubuntu PC and don't want to use VMware, follow the steps below.
 However, if you want to use VMware, click the following link.
 
--[VMware Ubuntu image]([link](https://github.com/AveesLab/sea-me-hackathon-2023/blob/master/VMware%20Ubuntu%20image/README.md))
+-[VMware Ubuntu image](https://github.com/AveesLab/sea-me-hackathon-2023/blob/master/VMware%20Ubuntu%20image/README.md))
 
 ## Contents
 - [Step 1: Install OpenJDK Java 8](#step-1-install-openjdk-java-8)
