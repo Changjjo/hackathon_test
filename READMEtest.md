@@ -162,4 +162,4 @@ sudo apt-get install libqt5multimedia5-plugins qml-module-qtmultimedia
 
 <br/>
 
-## Step 7: Executre Cluster & Controller
+## Step 7: Execute Cluster & Controller
