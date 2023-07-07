@@ -23,7 +23,6 @@ java --version
 ```
 
 If you have installed both OpenJDK 8 and 11, your default version will OpenJDK 11.
-![스크린샷, 2023-07-07 21-12-10](https://github.com/AveesLab/sea-me-hackathon-2023/assets/96398568/82db3734-5118-43cd-a31d-73ef9796c786)
 ![스크린샷, 2023-07-07 21-58-18](https://github.com/AveesLab/sea-me-hackathon-2023/assets/96398568/49d28f85-6f4f-4ca6-a971-abfa95dd7f68)
 
 To manually set a Java version, start by running the following command
@@ -33,7 +32,6 @@ sudo update-alternatives --config java
 ```
 
 Select number and set OpenJDK 8 as the system default
-![스크린샷, 2023-07-07 21-11-46](https://github.com/AveesLab/sea-me-hackathon-2023/assets/96398568/17fe2b05-43fd-4877-a5dc-8143cdaac17d)
 ![스크린샷, 2023-07-07 21-58-41](https://github.com/AveesLab/sea-me-hackathon-2023/assets/96398568/130277ce-b1bd-4c0c-8375-8a877ab1c869)
 ```bash
 java -version
