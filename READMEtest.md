@@ -7,7 +7,7 @@
 - [Step 4: Build the vsomeip Library](#step-4-build-the-vsomeip-library)
 - [Step 5: Build the CommonAPI SOME/IP Runtime Library](#step-5-build-the-commonapi-someip-runtime-library)
 - [Step 6: Write the Franca file and generate code](#step-6-Write-the-Franca-file-and-generate-code)
-- [Step 7: Install Qt](#step-7-install-qt)
+- [Step 7: Write the Cluster and the Controller application](#step-7-Write-the-Cluster-and-the-Controller-application)
 - [Step 9: Install Qt](#step-9-install-qt)
 ---
 <br/>
@@ -191,6 +191,8 @@ In my case
 ```bash
 rsync -avz src-gen-cluster sea@192.168.0.XXX:/home/sea/sea-me-hackathon-2023
 ```
+
+## Step 7: Write the Cluster and the Controller application
 
 ## Step 9: Install Qt
 
