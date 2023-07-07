@@ -140,6 +140,8 @@ Result:
 
 ## Step 6: Write the Franca file and generate code
 
+Unfortunately, code generator doesn’t support arm architecture. So if you want to use this generator, I recommend that you use the code generator on your laptop and then download the generated code via Git. The code generator automatically generates codes according to fidl and fdepl files. In the case of vsomeip, you have to run it twice with core-generator and some-generator to complete it.
+
 ## Step 7: Install Qt
 
 
