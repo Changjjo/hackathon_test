@@ -11,7 +11,7 @@ However, if you want to use VMware, click the following below.
 - [Step 4: Build the vsomeip Library](#step-4-build-the-vsomeip-library)
 - [Step 5: Build the CommonAPI SOME/IP Runtime Library](#step-5-build-the-commonapi-someip-runtime-library)
 - [Step 6: Install Qt](#step-6-install-qt)
-- [Step 6: Install Qt](#step-6-install-qt)
+- [Step 7: Execute Cluster & Controller](#step-6-install-qt)
 ---
 <br/>
 
