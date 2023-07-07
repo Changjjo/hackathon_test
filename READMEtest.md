@@ -11,7 +11,7 @@ However, if you want to use VMware, click the following below.
 - [Step 4: Build the vsomeip Library](#step-4-build-the-vsomeip-library)
 - [Step 5: Build the CommonAPI SOME/IP Runtime Library](#step-5-build-the-commonapi-someip-runtime-library)
 - [Step 6: Install Qt](#step-6-install-qt)
-- [Step 7: Execute Cluster & Controller](#step-7-Execute-Cluster-Controller)
+- [Step 7: Execute Cluster & Controller](#step-7-Execute-Cluster-and-Controller)
 ---
 <br/>
 
@@ -163,7 +163,7 @@ sudo apt-get install libqt5multimedia5-plugins qml-module-qtmultimedia
 
 <br/>
 
-## Step 7: Execute Cluster Controller
+## Step 7: Execute Cluster and Controller
 The setup for CommonAPI vSomeIP QT is now complete! 
 You can run the Controller and Cluster by following the each README in the links below.
 - [Cluster codes](https://github.com/AveesLab/sea-me-hackathon-2023/tree/master/Cluster)
