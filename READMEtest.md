@@ -6,7 +6,7 @@
 - [Step 3: Build the CommonAPI Runtime Library](#step-3-build-the-commonapi-runtime-library)
 - [Step 4: Build the vsomeip Library](#step-4-build-the-vsomeip-library)
 - [Step 5: Build the CommonAPI SOME/IP Runtime Library](#step-5-build-the-commonapi-someip-runtime-library)
-- [Step 6: Write the Franca file and generate code](#step-6-install-qt)
+- [Step 6: Write the Franca file and generate code](#step-6-Write-the-Franca-file-and-generate-code)
 - [Step 7: Install Qt](#step-7-install-qt)
 ---
 <br/>
@@ -137,6 +137,8 @@ Result:
 ```
 
 <br/>
+
+## Step 6: Write the Franca file and generate code
 
 ## Step 7: Install Qt
 
