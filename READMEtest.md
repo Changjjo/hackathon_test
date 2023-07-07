@@ -36,7 +36,6 @@ Select number and set OpenJDK 8 as the system default
 ```bash
 java -version
 ```
-![스크린샷, 2023-07-07 21-11-11](https://github.com/AveesLab/sea-me-hackathon-2023/assets/96398568/ddce9df6-0907-4aa8-bb33-914214bebbba)
 ![스크린샷, 2023-07-07 21-59-08](https://github.com/AveesLab/sea-me-hackathon-2023/assets/96398568/f3c6b169-3de6-4bba-83ba-087a9e92da07)
 
 
