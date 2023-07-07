@@ -6,9 +6,7 @@
 - [Step 3: Build the CommonAPI Runtime Library](#step-3-build-the-commonapi-runtime-library)
 - [Step 4: Build the vsomeip Library](#step-4-build-the-vsomeip-library)
 - [Step 5: Build the CommonAPI SOME/IP Runtime Library](#step-5-build-the-commonapi-someip-runtime-library)
-- [Step 6: Write the Franca file and generate code](#step-6-Write-the-Franca-file-and-generate-code)
-- [Step 7: Write the Cluster and the Controller application](#step-7-Write-the-Cluster-and-the-Controller-application)
-- [Step 9: Install Qt](#step-9-install-qt)
+- [Step 6: Install Qt](#step-6-install-qt)
 ---
 <br/>
 
@@ -139,64 +137,8 @@ Result:
 
 <br/>
 
-## Step 6: Write the Franca file and generate code
 
-Unfortunately, code generator doesn’t support arm architecture. So if you want to use this generator, I recommend that you use the code generator on your laptop and then download the generated code via Git. The code generator automatically generates codes according to fidl and fdepl files. In the case of vsomeip, you have to run it twice with core-generator and some-generator to complete it.
-
-Create commonapi project directory and open Franca IDL
-```bash
-cd ~
-mkdir sea-me-hackathon-2023
-cd sea-me-hackathon-2023
-mkdir fidl
-cd fidl
-```
-Write fidl and fdepl file in fidl directory.
-
-Cluster.fdepl
-
-Cluster.fidl
-
-Download code generator 3.2.0.1
-```bash
-cd ~
-mkdir generator && cd generator
-```
-```bash
-wget https://github.com/COVESA/capicxx-core-tools/releases/download/3.2.0.1/commonapi_core_generator.zip
-unzip commonapi_core_generator.zip -d core-generator
-cd core-generator
-chmod +x commonapi-core-generator-linux-x86_64
-```
-Download someip code generator 3.2.0.1
-```bash
-cd ~/generator
-wget https://github.com/COVESA/capicxx-someip-tools/releases/download/3.2.0.1/commonapi_someip_generator.zip
-unzip commonapi_someip_generator.zip -d someip-generator
-cd someip-generator
-chmod +x commonapi-someip-generator-linux-x86_64
-```
-Run generator
-```bash
-cd ~/sea-me-hackathon-2023
-../generator/core-generator/commonapi-core-generator-linux-x86_64 -sk ./fidl/Cluster.fidl -d ./src-gen-cluster
-../generator/someip-generator/commonapi-someip-generator-linux-x86_64 ./fidl/Cluster.fdepl -d ./src-gen-cluster
-```
-Now, send the generated code to your device using rsync command line
-```bash
-cd ~/sea-me-hackathon-2023
-rsync -avz src-gen-cluster <user-name>@<IP-address>:<project-directory>
-```
-In my case
-```bash
-rsync -avz src-gen-cluster sea@192.168.0.XXX:/home/sea/sea-me-hackathon-2023
-```
-
-## Step 7: Write the Cluster and the Controller application
-**
-
-
-## Step 9: Install Qt
+## Step 6: Install Qt
 
 
 ```bash
