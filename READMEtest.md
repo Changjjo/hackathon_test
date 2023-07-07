@@ -131,6 +131,7 @@ cd build
 cmake -DUSE_INSTALLED_COMMONAPI=OFF ..
 make -j6
 sudo make install
+
 ```
 
 Result:
@@ -139,7 +140,14 @@ Result:
 [100%] Linking CXX shared library libCommonAPI-SomeIP.so
 [100%] Built target CommonAPI-SomeIP
 ```
-
+```bash
+cd ~
+sudo vi .bashrc
+```
+Add the command at the lowest line.
+```bash
+export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
+```
 <br/>
 
 
