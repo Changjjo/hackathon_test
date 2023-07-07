@@ -1,4 +1,6 @@
 # CommonAPI vSomeIP QT Setup 
+If you have your own Ubuntu PC and don't want to use VMware, follow the steps below.
+However, if you want to use VMware, click the following link.
 
 ## Contents
 - [Step 1: Install OpenJDK Java 8](#step-1-install-openjdk-java-8)
