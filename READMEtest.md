@@ -34,6 +34,7 @@ sudo update-alternatives --config java
 
 Select number and set OpenJDK 8 as the system default
 ![스크린샷, 2023-07-07 21-11-46](https://github.com/AveesLab/sea-me-hackathon-2023/assets/96398568/17fe2b05-43fd-4877-a5dc-8143cdaac17d)
+![스크린샷, 2023-07-07 21-58-41](https://github.com/AveesLab/sea-me-hackathon-2023/assets/96398568/130277ce-b1bd-4c0c-8375-8a877ab1c869)
 ```bash
 java -version
 ```
