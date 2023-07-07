@@ -145,13 +145,51 @@ Unfortunately, code generator doesn’t support arm architecture. So if you want
 Create commonapi project directory and open Franca IDL
 ```bash
 cd ~
+mkdir sea-me-hackathon-2023
+cd sea-me-hackathon-2023
 mkdir fidl
 cd fidl
 ```
+Write fidl and fdepl file in fidl directory.
+
 Cluster.fdepl
 
 Cluster.fidl
 
+Download code generator 3.2.0.1
+```bash
+cd ~
+mkdir generator && cd generator
+```
+```bash
+wget https://github.com/COVESA/capicxx-core-tools/releases/download/3.2.0.1/commonapi_core_generator.zip
+unzip commonapi_core_generator.zip -d core-generator
+cd core-generator
+chmod +x commonapi-core-generator-linux-x86_64
+```
+Download someip code generator 3.2.0.1
+```bash
+cd ~/generator
+wget https://github.com/COVESA/capicxx-someip-tools/releases/download/3.2.0.1/commonapi_someip_generator.zip
+unzip commonapi_someip_generator.zip -d someip-generator
+cd someip-generator
+chmod +x commonapi-someip-generator-linux-x86_64
+```
+Run generator
+```bash
+cd ~/sea-me-hackathon-2023
+../generator/core-generator/commonapi-core-generator-linux-x86_64 -sk ./fidl/Cluster.fidl -d ./src-gen-cluster
+../generator/someip-generator/commonapi-someip-generator-linux-x86_64 ./fidl/Cluster.fdepl -d ./src-gen-cluster
+```
+Now, send the generated code to your device using rsync command line
+```bash
+cd ~/fidl
+rsync -avz src-gen <user-name>@<IP-address>:<project-directory>
+```
+In my case
+```bash
+rsync -avz src-gen-cluster sea@192.168.0.XXX:/home/sea/project-hello
+```
 
 ## Step 7: Install Qt
 
