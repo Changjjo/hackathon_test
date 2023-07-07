@@ -8,6 +8,7 @@
 - [Step 5: Build the CommonAPI SOME/IP Runtime Library](#step-5-build-the-commonapi-someip-runtime-library)
 - [Step 6: Write the Franca file and generate code](#step-6-Write-the-Franca-file-and-generate-code)
 - [Step 7: Install Qt](#step-7-install-qt)
+- [Step 9: Install Qt](#step-9-install-qt)
 ---
 <br/>
 
@@ -191,7 +192,7 @@ In my case
 rsync -avz src-gen-cluster sea@192.168.0.XXX:/home/sea/sea-me-hackathon-2023
 ```
 
-## Step 7: Install Qt
+## Step 9: Install Qt
 
 
 ```bash
